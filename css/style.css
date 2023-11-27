@@ -20,7 +20,7 @@
 } */
 body{
   overflow-x: hidden;
-    border: 2px solid rgb(20, 20, 20);
+    border: 5px solid rgb(20, 20, 20);
 }
 @media (max-width: 455px) {
   .container-5, .container-4, .container-3, .container-2, .container-1, .ludo, .container-0, article, .title, .title-2, .title-3, .pharos, .landscape{
