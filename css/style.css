@@ -46,7 +46,8 @@ header{
   /* position: absolute; */
   top: 0 !important;
   /* width: 50%; */
-  background-color: rgba(240, 235, 247, 0.6) !important;
+/*   background-color: rgba(240, 235, 247, 0.6) !important; */
+  background-color: red;
   position: fixed;
   z-index: 10;
 
