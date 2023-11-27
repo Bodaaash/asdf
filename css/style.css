@@ -20,14 +20,12 @@
 } */
 body{
   overflow-x: hidden;
-    border: 5px solid rgb(20, 20, 20);
 }
-@media (max-width: 455px) {
+/* @media (max-width: 455px) {
   .container-5, .container-4, .container-3, .container-2, .container-1, .ludo, .container-0, article, .title, .title-2, .title-3, .pharos, .landscape{
     width: 100% !important;
-    /* flex-wrap: wrap !important; */
   }
-}
+} */
 /* @media (max-width: 455px){
   .icons{
     position: absolute;
@@ -47,7 +45,9 @@ body{
   display: none !important;
 }
 }
-
+body{
+  border: 2px solid rgb(10, 10, 10);
+}
 /*-------------------------(1)HEADER------------------------------*/
 header{
   position: relative;
@@ -61,8 +61,8 @@ header{
   /* position: absolute; */
   top: 0 !important;
   /* width: 50%; */
-  /* background-color: rgba(240, 235, 247, 0.6) !important; */
-  background-color: red;
+  background-color: rgba(240, 235, 247, 0.6) !important;
+  /* background-color: red; */
   position: fixed;
   z-index: 10;
 
@@ -234,7 +234,7 @@ article button a{
     font-weight: 700;
 }
 .title-2 h1{
-    font-size: 60px;
+    font-size: 40px;
     background: linear-gradient(to top, blue, red);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -696,7 +696,7 @@ article button a{
   margin-top: 1rem;
 }
 .line{
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   border-radius: 3px;
   height: 5px;
