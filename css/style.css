@@ -541,9 +541,10 @@ article button a{
   width: 100px;
 }
 .mini-cont-3{
-  width: 40%;
+  width: 50% !important;
   display: flex;
   justify-content: space-between;
+  height: fit-content;
 }
 .mini-cont-3 div{
   background-color: grey;
